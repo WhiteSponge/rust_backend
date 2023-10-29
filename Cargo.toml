@@ -1,0 +1,16 @@
+[package]
+name = "rust_backend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4.4.0"
+async-trait = "0.1.73"
+derive_more = "0.99.17"
+json = "0.12.4"
+serde = { version = "1.0.188", features = ["derive"] }
+surrealdb = "1.0.0"
+uuid = "1.4.1"
+validator = { version = "0.16.1", features = ["derive"] }
